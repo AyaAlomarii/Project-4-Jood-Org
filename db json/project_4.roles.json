@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "659e5291d2f8fba730f39707"
+  },
+  "role": "employee",
+  "permissions": [
+    "create donation",
+    "create category",
+    "create initiative",
+    "delete review",
+    "delete initiative",
+    "update initiative"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659e5371d2f8fba730f39709"
+  },
+  "role": "user",
+  "permissions": [
+    "create donation",
+    "delete review",
+    "get all donation by user id",
+    "create review",
+    "update review"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659e53ebd2f8fba730f3970b"
+  },
+  "role": "volunteer",
+  "permissions": [
+    "create donation",
+    "delete review",
+    "get all donation by user id",
+    "create review",
+    "update review"
+  ],
+  "__v": 0
+}]

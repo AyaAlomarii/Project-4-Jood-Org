@@ -1,0 +1,342 @@
+[{
+  "_id": {
+    "$oid": "65a9ae5b319f291f3b13b4a6"
+  },
+  "name": "HealBright Kids: Fostering Health for Every Child and Inspiring Wellness.",
+  "description": "HealHope Kids is committed to providing essential healthcare to underprivileged children. Our mission is to ensure every child has access to the medical support they need, fostering a healthier and brighter future. Join us in making a lasting impact on young lives.",
+  "img": "https://img.freepik.com/free-photo/doctor-doing-their-work-pediatrics-office_23-2149224121.jpg?w=900&t=st=1705619005~exp=1705619605~hmac=64cee560091d801c378100db1e1100635aa22278e9fff9f9a761a415812fccaf",
+  "duration": "two ",
+  "city": "All cities",
+  "currentAmount": 100,
+  "volunteerLimit": 30,
+  "plan": {
+    "schedule": [
+      "SUN: 10AM-5PM in Irbid",
+      "TUE: 10AM-5PM in Ajloun"
+    ],
+    "listOfDuties": [
+      "Coordinate healthcare programs for underprivileged children.",
+      "Establish partnerships with medical professionals and facilities.",
+      "Organize health awareness campaigns in local communities.",
+      "Facilitate medical screenings and check-ups for children.",
+      "Manage logistics for healthcare outreach events.",
+      "Collaborate with donors to secure necessary resources.",
+      "Monitor and report on the impact of healthcare initiatives.",
+      "Build relationships with local schools and community organizations.",
+      "Ensure compliance with health and safety standards.",
+      "Stay informed about healthcare trends and innovations."
+    ],
+    "targetAmount": 400,
+    "startDate": "1/1/2024",
+    "endDate": "1/2/2026",
+    "targetAudience": "children."
+  },
+  "volunteerRequirements": {
+    "ageGroup": "18-25",
+    "requirementSkills": [
+      "Nurses ,Doctors"
+    ]
+  },
+  "reviewsSent": [
+    {
+      "$oid": "65a9dfc43c67c0325a4f4e6c"
+    },
+    {
+      "$oid": "65a9e18e3c67c0325a4f4fa7"
+    },
+    {
+      "$oid": "65a9e228063e13860ca32f18"
+    },
+    {
+      "$oid": "65aaf9ae4e3aa14dc4e9c02f"
+    }
+  ],
+  "category": {
+    "$oid": "659e56be83abe2262ed1cafd"
+  },
+  "donation": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a9b444319f291f3b13b60d"
+  },
+  "name": "HealthEd Kids: Empowering Young Minds with Healthy Habits",
+  "description": "HealthEd Kids is dedicated to empowering young minds with essential knowledge about general health. Through engaging programs and interactive initiatives, we instill healthy habits and educate children on the importance of well-being. Join us in shaping a future generation that values and embraces a lifetime of good health",
+  "img": "https://img.freepik.com/free-photo/medium-shot-smiley-girl-with-stethoscope_23-2148892762.jpg?w=900&t=st=1705620230~exp=1705620830~hmac=f542ae2ef2a2e8dba6f93df7550edde13f8bccd19d8952ce3ed0dac93a8f2a80",
+  "duration": "Two year",
+  "city": "All cities",
+  "currentAmount": 100,
+  "volunteerLimit": 30,
+  "plan": {
+    "schedule": [
+      "SUN: 10AM-5PM in Amman",
+      "TUE: 10AM-5PM in Zarqa"
+    ],
+    "listOfDuties": [
+      "Develop and implement age-appropriate health education programs for children.",
+      "Create engaging and interactive materials to teach kids about general health.",
+      "Collaborate with schools and educators to integrate health education into curricula.",
+      "Conduct workshops and presentations on healthy habits and wellness.",
+      "rganize fun and educational events to promote health awareness.",
+      "Evaluate the effectiveness of health education programs.",
+      "Establish partnerships with local organizations to expand reach.",
+      "Communicate with parents to reinforce health education at home.",
+      "Stay updated on child health trends and best practices.",
+      "Foster a positive and inclusive learning environment for children."
+    ],
+    "targetAmount": 400,
+    "startDate": "1/1/2024",
+    "endDate": "1/2/2026",
+    "targetAudience": "children."
+  },
+  "volunteerRequirements": {
+    "ageGroup": "18-25",
+    "requirementSkills": [
+      "Nurses ,Collage Students,Doctors"
+    ]
+  },
+  "reviewsSent": [
+    {
+      "$oid": "65a9e4a5063e13860ca330e5"
+    },
+    {
+      "$oid": "65a9e5ad5bda8f499557f159"
+    },
+    {
+      "$oid": "65aafa1f4e3aa14dc4e9c050"
+    }
+  ],
+  "category": {
+    "$oid": "659e56be83abe2262ed1cafd"
+  },
+  "donation": [
+    {
+      "$oid": "65aafa274e3aa14dc4e9c053"
+    },
+    {
+      "$oid": "65aafa2d4e3aa14dc4e9c056"
+    },
+    {
+      "$oid": "65aafa314e3aa14dc4e9c059"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a9b62a319f291f3b13b61b"
+  },
+  "name": "AutismAware: Bridging Understanding, Fostering Inclusion",
+  "description": "AutismAware strives to bridge understanding and foster inclusion for individuals with autism. Our initiative focuses on raising awareness, providing resources, and creating a supportive community that embraces neurodiversity. Join us in cultivating a world where everyone, regardless of their unique abilities, is valued and included",
+  "img": "https://img.freepik.com/free-vector/hand-drawn-world-autism-awareness-day-illustration_52683-57325.jpg?w=900&t=st=1705620995~exp=1705621595~hmac=24fe9cc7dc796765c63fc9595f2bce17347a330919c3d66ab14b90b7fc7dc275",
+  "duration": "One year",
+  "city": "Amman",
+  "currentAmount": 100,
+  "volunteerLimit": 30,
+  "plan": {
+    "schedule": [
+      "SUN: 10AM-5PM in Amman",
+      "TUE: 10AM-5PM in Amman"
+    ],
+    "listOfDuties": [
+      "Develop and deliver autism awareness programs for diverse audiences.",
+      "Create resources to educate individuals and communities about autism.",
+      "Foster inclusive environments through workshops and training sessions.",
+      "Collaborate with schools and organizations to promote autism acceptance.",
+      "Organize events to bring together individuals with autism and their communities.",
+      "Provide support and resources for families affected by autism.",
+      "Advocate for inclusive policies and practices in various sectors.",
+      "Stay informed about the latest research and best practices in autism education.",
+      "Establish partnerships with other organizations to amplify impact.",
+      "Monitor and evaluate the effectiveness of autism awareness initiatives."
+    ],
+    "targetAmount": 400,
+    "startDate": "1/1/2024",
+    "endDate": "1/2/2025",
+    "targetAudience": "All Ages."
+  },
+  "volunteerRequirements": {
+    "ageGroup": "18-30",
+    "requirementSkills": [
+      "Nurses ,Collage Students,Doctors"
+    ]
+  },
+  "reviewsSent": [],
+  "category": {
+    "$oid": "659e56d483abe2262ed1caff"
+  },
+  "donation": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a9b7b4319f291f3b13b621"
+  },
+  "name": "EduMentor Volunteers: Nurturing Minds, Building Brighter Tomorrows",
+  "description": "EduMentor Volunteers is dedicated to nurturing young minds and building brighter futures through the power of education. Our volunteers play a vital role in empowering students, fostering a love for learning, and providing mentorship. Join us in creating a positive impact on the next generation, one educational opportunity at a time.",
+  "img": "https://img.freepik.com/free-vector/hand-drawn-speech-therapy-scenes-collection_23-2149189769.jpg?w=900&t=st=1705621164~exp=1705621764~hmac=4ac3533bf59be118251857863d9db24aa031be6708b3320d08822ada7b68f6fd",
+  "duration": "One year",
+  "city": "Amman",
+  "currentAmount": 100,
+  "volunteerLimit": 30,
+  "plan": {
+    "schedule": [
+      "SUN: 10AM-5PM in Amman",
+      "TUE: 10AM-5PM in Amman"
+    ],
+    "listOfDuties": [
+      "Facilitate educational sessions and mentorship programs for students.",
+      "Create engaging and effective teaching materials.",
+      "Provide one-on-one guidance to students in need of extra support.",
+      "Collaborate with schools and educators to align programs with curriculum goals.",
+      "Organize and coordinate extracurricular educational activities.",
+      "Assess students' progress and adapt teaching strategies accordingly.",
+      "Foster a positive and inclusive learning environment.",
+      "Recruit, train, and manage volunteers for educational initiatives.",
+      "Establish partnerships with schools and community organizations.",
+      "Evaluate the impact of the program and make continuous improvements."
+    ],
+    "targetAmount": 400,
+    "startDate": "1/1/2024",
+    "endDate": "1/2/2025",
+    "targetAudience": "Children"
+  },
+  "volunteerRequirements": {
+    "ageGroup": "18-30",
+    "requirementSkills": [
+      "Collage Students,Teaching skills"
+    ]
+  },
+  "reviewsSent": [
+    {
+      "$oid": "65a9e9c034baf024982baf72"
+    },
+    {
+      "$oid": "65a9e9ff34baf024982baf85"
+    },
+    {
+      "$oid": "65a9ea5834baf024982bafd8"
+    }
+  ],
+  "category": {
+    "$oid": "659e56d483abe2262ed1caff"
+  },
+  "donation": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a9bbe3319f291f3b13b635"
+  },
+  "name": "TeacherCare Global: Supporting Educators in Underserved Communities",
+  "description": "TeacherCare Global is dedicated to providing essential support for educators in underserved communities worldwide. Recognizing the invaluable role teachers play in shaping futures, our initiative aims to equip them with resources, training, and mentorship. By fostering a network of empowered educators, TeacherCare Global seeks to enhance the quality of education in regions facing challenges, ensuring that every student has access to a dedicated and supported teacher. Join us in making a lasting impact on the frontlines of education.",
+  "img": "https://img.freepik.com/free-vector/teacher-collection-concept_52683-37592.jpg?w=900&t=st=1705622474~exp=1705623074~hmac=b99aab01cb3596da9de69483091eae1133f71c34bab6be329afa9e146c44c431",
+  "duration": "Two Years",
+  "city": "All Citys",
+  "currentAmount": 100,
+  "volunteerLimit": 30,
+  "plan": {
+    "schedule": [
+      "SUN: 10AM-5PM in Amman",
+      "TUE: 10AM-5PM in Irbid"
+    ],
+    "listOfDuties": [
+      " Distribute essential teaching materials, books, and supplies to teachers.",
+      "Conduct professional development workshops for enhanced teaching skills.",
+      "Establish mentorship programs pairing experienced and novice teachers.",
+      "Introduce and train educators on effective technology use in the classroom.",
+      "Implement health and well-being programs for teachers.",
+      "Facilitate community involvement to create a supportive network.",
+      "Provide access to online educational platforms and resources.",
+      "Advocate for fair wages, proper working conditions, and teacher recognition.",
+      "Offer language and cultural competency training for diverse environments.",
+      "Conduct regular needs assessments to tailor support accordingly."
+    ],
+    "targetAmount": 500,
+    "startDate": "1/1/2024",
+    "endDate": "1/1/2026",
+    "targetAudience": "Teachers"
+  },
+  "volunteerRequirements": {
+    "ageGroup": "18-40",
+    "requirementSkills": [
+      "none"
+    ]
+  },
+  "reviewsSent": [
+    {
+      "$oid": "65a9e7e534baf024982bae3c"
+    },
+    {
+      "$oid": "65a9e83e34baf024982bae87"
+    },
+    {
+      "$oid": "65a9e89834baf024982baed2"
+    },
+    {
+      "$oid": "65a9ea7634baf024982baff1"
+    }
+  ],
+  "category": {
+    "$oid": "659e56d483abe2262ed1caff"
+  },
+  "donation": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a9bd1f319f291f3b13b643"
+  },
+  "name": "EducationLift: Breaking Barriers, Funding Futures for College Students",
+  "description": "EducationLift is committed to breaking down financial barriers for college students who face challenges affording tuition. Our initiative seeks to provide funding support, scholarships, and resources, ensuring that every deserving student has the opportunity to pursue higher education regardless of their financial constraints. Join us in lifting the burden of tuition and fostering a brighter future for aspiring college students.",
+  "img": "https://img.freepik.com/free-vector/set-graduation-students_1262-19896.jpg?w=900&t=st=1705622767~exp=1705623367~hmac=771d0a9b97a72f793fbcef40540e207a9515726f8ae5ed1ad79000a745dca917",
+  "duration": "Two Years",
+  "city": "All Citys",
+  "currentAmount": 0,
+  "volunteerLimit": 4,
+  "plan": {
+    "schedule": [
+      "SUN: 10AM-5PM in Amman",
+      "TUE: 10AM-5PM in Irbid"
+    ],
+    "listOfDuties": [
+      "Administer and oversee scholarship programs for eligible college students.",
+      "Organize and execute fundraising campaigns to generate financial support for tuition",
+      "Provide financial counseling and guidance to students seeking assistance.",
+      "Manage the application and selection process for scholarship recipients.",
+      "Establish partnerships with organizations and individuals to expand funding opportunities.",
+      "Engage with college students to raise awareness of available financial support.",
+      "Allocate funds strategically to maximize the impact on students' tuition needs.",
+      "Conduct regular assessments to measure the effectiveness and impact of the initiative.",
+      "Advocate for policies supporting affordable education and reduced tuition costs.",
+      "Organize events to engage the community and garner support for the cause."
+    ],
+    "targetAmount": 2000,
+    "startDate": "1/1/2024",
+    "endDate": "1/1/2026",
+    "targetAudience": "Collage Students"
+  },
+  "volunteerRequirements": {
+    "ageGroup": "18-40",
+    "requirementSkills": [
+      "none"
+    ]
+  },
+  "reviewsSent": [
+    {
+      "$oid": "65a9e90934baf024982baee7"
+    },
+    {
+      "$oid": "65a9e93a34baf024982baef2"
+    },
+    {
+      "$oid": "65a9e97334baf024982baf2d"
+    }
+  ],
+  "category": {
+    "$oid": "659e56d483abe2262ed1caff"
+  },
+  "donation": [],
+  "__v": 0
+}]

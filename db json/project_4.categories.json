@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "659e56be83abe2262ed1cafd"
+  },
+  "categoryName": "health",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659e56d483abe2262ed1caff"
+  },
+  "categoryName": "education",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a835b39d3f07e5356d541c"
+  },
+  "categoryName": "socialWork",
+  "__v": 0
+}]
