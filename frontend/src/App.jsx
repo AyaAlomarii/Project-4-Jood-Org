@@ -137,8 +137,8 @@ const [userId, setUserId] = useState(localStorage.getItem("userId") || "")
        
         
 {/* Footer */}
-
-  <Container  sx={{display:"flex", height:"10%",flexWrap:"wrap",justifyContent:"space-between",gap:"15px",mb:"5px",width:"100%", bgcolor: 'background.paper',marginTop:"30px", p: 1, borderTop: 2, borderColor: 'divider',width:"fitContent"}}>
+<Box sx={{ p: 1, borderTop: 2, borderColor: 'divider',}}>
+  <Container  sx={{display:"flex", height:"10%",flexWrap:"wrap",justifyContent:"space-between",gap:"15px",mb:"5px",width:"100%", bgcolor: 'background.paper',marginTop:"30px",width:"fitContent"}}>
 <Box align="center">
 
     <Box>
@@ -260,7 +260,7 @@ const [userId, setUserId] = useState(localStorage.getItem("userId") || "")
 
     </Box>
   </Container>
-     
+  </Box>
       
       
     <Copyright  />
