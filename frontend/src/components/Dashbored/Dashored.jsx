@@ -94,6 +94,7 @@ export default function Dashboard() {
       .then((res) => {
         
         setAllInitiative(res.data.initiative);
+        console.log(res.data.initiative);
         setAll(res.data.initiative)
         console.log("res", res.data.initiative[0].category.categoryName);
        setHealth( res.data.initiative.filter((ele,i)=>{

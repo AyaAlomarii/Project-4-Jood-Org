@@ -47,7 +47,6 @@ import Stack from '@mui/material/Stack';
 import { pink } from '@mui/material/colors';
 import SvgIcon from '@mui/material/SvgIcon';
 import Create from "./components/CreateIn/CreateIn";
-
 function Copyright(props) {
   return (
     <Typography
@@ -138,8 +137,8 @@ const [userId, setUserId] = useState(localStorage.getItem("userId") || "")
        
         
 {/* Footer */}
-<Box sx={{height:"20%", bgcolor: 'background.paper',marginTop:"30px", p: 1, borderTop: 2, borderColor: 'divider'}} component="footer">
-  <Container  sx={{display:"grid", height:"10%",gridTemplateColumns:"1fr 1fr 1fr 2fr ",gap:"20px",mb:"5px"}}>
+
+  <Container  sx={{display:"flex", height:"10%",flexWrap:"wrap",justifyContent:"space-between",gap:"15px",mb:"5px",width:"100%", bgcolor: 'background.paper',marginTop:"30px", p: 1, borderTop: 2, borderColor: 'divider',width:"fitContent"}}>
 <Box align="center">
 
     <Box>
@@ -264,7 +263,6 @@ const [userId, setUserId] = useState(localStorage.getItem("userId") || "")
      
       
       
-    </Box>
     <Copyright  />
       </tokenContext.Provider>
     </div>
