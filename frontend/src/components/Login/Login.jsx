@@ -36,7 +36,6 @@ function Copyright(props) {
   );
 }
 
-// TODO remove, this demo shouldn't need to reset the theme.
 
 const defaultTheme = createTheme();
 
@@ -76,6 +75,37 @@ export default function Login() {
         console.log("err", err);
       });
   };
+ const guestLogin =()=>{
+
+
+
+axios
+  .post(`https://jood-organization.onrender.com/users/login`, {email:"ayauser@gmail.com",password:"123"})
+  .then((res) => {
+    localStorage.setItem("token", res.data.token);
+    localStorage.setItem("isLoggedIn", true);
+    
+    setEdit(res.data.role._id)
+    setUserId(res.data.userId)
+    localStorage.setItem("userId",res.data.userId)
+    localStorage.setItem("edit",res.data.role._id)
+      console.log('d', res.data.role._id)
+    console.log("res", res.data.message);
+   // console.log("first", res.data.token);
+    setToken(res.data.token);
+    navigate("/dashboard")
+    setIsLoggedIn(true);
+
+    // navigate("/dashboard").per
+  })
+  .catch((err) => {
+    setMessage(err.response.data.message);
+    localStorage.setItem("isLoggedIn", false);
+    setIsLoggedIn(false);
+    console.log("err", err);
+  });
+
+ }
 
   return (
     <ThemeProvider theme={defaultTheme}>
@@ -96,6 +126,7 @@ export default function Login() {
           <Typography component="h1" variant="h5">
             Sign in
           </Typography>
+          
           <Box
             component="form"
             onSubmit={handleSubmit}
@@ -142,6 +173,17 @@ export default function Login() {
             >
               Sign In
             </Button>
+            <Typography sx={{textAlign:"center"}}>Or</Typography>
+            <Button onClick={()=>{
+            guestLogin()
+          }}
+            
+            fullWidth
+            variant="contained"
+            sx={{ mt: 3, mb: 2 }}
+          >
+           Log in as guest
+          </Button>
             <Grid container>
               <Grid item xs>
                 <Link href="#" variant="body2">

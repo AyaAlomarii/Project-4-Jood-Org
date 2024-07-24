@@ -67,7 +67,7 @@ function Navbar() {
         </Typography>
         <IconButton sx={{ 
           margin:2,}}>
-          <SearchIcon />
+          
 
         </IconButton>
        
