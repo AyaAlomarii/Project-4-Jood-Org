@@ -105,7 +105,40 @@ axios
     console.log("err", err);
   });
 
+
+
+  
  }
+ const adminGuestLogin =()=>{
+
+
+
+  axios
+    .post(`https://jood-organization.onrender.com/users/login`, {email:"ayaomari@gmail.com",password:"123"})
+    .then((res) => {
+      localStorage.setItem("token", res.data.token);
+      localStorage.setItem("isLoggedIn", true);
+      
+      setEdit(res.data.role._id)
+      setUserId(res.data.userId)
+      localStorage.setItem("userId",res.data.userId)
+      localStorage.setItem("edit",res.data.role._id)
+        console.log('d', res.data.role._id)
+      console.log("res", res.data.message);
+     // console.log("first", res.data.token);
+      setToken(res.data.token);
+      navigate("/dashboard")
+      setIsLoggedIn(true);
+  
+      // navigate("/dashboard").per
+    })
+    .catch((err) => {
+      setMessage(err.response.data.message);
+      localStorage.setItem("isLoggedIn", false);
+      setIsLoggedIn(false);
+      console.log("err", err);
+    });
+  }
 
   return (
     <ThemeProvider theme={defaultTheme}>
@@ -180,9 +213,19 @@ axios
             
             fullWidth
             variant="contained"
-            sx={{ mt: 3, mb: 2 }}
+            sx={{ mt: 3, mb: 1 }}
           >
-           Log in as guest
+           Log in as Guest User
+          </Button>
+          <Button onClick={()=>{
+            adminGuestLogin()
+          }}
+            
+            fullWidth
+            variant="contained"
+            sx={{ mt: 2, mb: 2 }}
+          >
+           Log in as Guest Admin
           </Button>
             <Grid container>
               <Grid item xs>
